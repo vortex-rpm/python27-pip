@@ -18,7 +18,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:      noarch
 BuildRequires:  python27-devel, python27-setuptools
-Requires:       python27-setuptools
+Requires:       python27-setuptools, python27-devel
 
 %description
 
