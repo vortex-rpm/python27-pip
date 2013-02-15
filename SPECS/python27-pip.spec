@@ -6,7 +6,7 @@
 
 Name:           python27-%{srcname}
 Version:        1.2.1
-Release:        2.vortex%{?dist}
+Release:        3.vortex%{?dist}
 Summary:        Pip installs packages.  Python packages.  An easy_install replacement
 Vendor:         Vortex RPM
 
@@ -52,6 +52,9 @@ mv %{buildroot}%{_bindir}/pip %{buildroot}%{_bindir}/pip-2.7
 %{python_sitelib}/pip*
 
 %changelog
+* Fri Feb 15 2013 Ilya A. Otyutskiy <sharp@thesharp.ru> - 1.2.1-3.vortex
+- Rebuilt with vortex python27.
+
 * Fri Feb 15 2013 Ilya A. Otyutskiy <sharp@thesharp.ru> - 1.2.1-2.vortex
 - Add vortex branding.
 
